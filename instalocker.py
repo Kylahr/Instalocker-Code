@@ -238,7 +238,7 @@ while True:
 
         cs = r.json()
         actorCellId = -1
-
+        print(cs)
         for member in cs['myTeam']:
             if member['summonerId'] == summonerId:
                 actorCellId = member['cellId']
